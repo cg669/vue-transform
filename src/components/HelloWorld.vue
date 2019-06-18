@@ -35,9 +35,6 @@ export default {
       this.listData = this.listData.filter( item => item.id !== id)
     }
   },
-  props: {
-    msg: String
-  },
   components:{
     Tree,
     List
